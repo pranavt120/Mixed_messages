@@ -1,8 +1,7 @@
 
 const data = {
     Pronouns: function(){
-        return this.generateArray(`ait
-        I
+        return this.generateArray(`I
         you
         he
         they
@@ -174,7 +173,7 @@ const data = {
 
     
     const generateRandomMessage = func=>{
-        console.log(`${func(data,'noun')}${func(data,'adverb')}${func(data,'verb')}${func(data,'adjective')}${func(data,'puctuation')}${func(data,'pronoun')}${func(data,'adverb')}${func(data,'pronoun')}${func(data,'verb')}${func(data,'adjective')}${func(data,'puctuation')}`)
+        console.log(`${func(data,'noun')} ${func(data,'verb')} ${func(data,'adjective')}${func(data,'puctuation')}${func(data,'pronoun')} ${func(data,'adverb')} ${func(data,'verb')} ${func(data,'adjective')}${func(data,'puctuation')}`)
     }
     
     
